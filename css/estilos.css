@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.img-carrusel {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.fondo-gris {
+    background-color: #e9ecef;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 100%;
+    margin-top: 0;
+    text-align: left;
+}
+
+hr {
+    opacity: 1;
+    margin: 20px 0;
+}
+
+.imagen-azul {
+    background-color: #e3f2fd;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.btn.btn-boton {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    color: white;
+    padding: 10px 20px;
+}
+
+.btn.btn-boton:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+    color: white;
+}
+
+.footer-color {
+    background-color: #17a2b8;
+    color: white;
+}
+
+
+/* Estilos para contacto.html */
+.breadcrumb-item a {
+    color: #17a2b8;
+    text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+    text-decoration: underline;
+}
+
+.page-link {
+    color: #17a2b8;
+    background-color: white;
+    border: 5px solid #dee2e6;
+}
+
+.page-link:hover {
+    color: white;
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+.page-item.active .page-link {
+    color: white;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    font-weight: bolder;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.formulario {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #e3f2fd;
+}
+
+
+
+/* Estilos para tabla.html */
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
