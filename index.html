@@ -49,6 +49,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="tabla.html">Tabla</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="video.html">Control de Video</a>
+                    </li>
                 </ul>
 
                 <form class="d-flex">
@@ -58,6 +61,7 @@
             </div>
         </div>
     </nav>
+
     <header>
         <div id="miCarrusel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -94,35 +98,39 @@
         <div class="row">
             <div class="col-12 col-md-6 col-lg-4 mb-4">
                 <div class="card">
-                    <img src="images/foto1.jpg" class="card-img-top imagen-azul" alt="Foto 1">
-                    <div class="card-body">
-                        <h5>Card title</h5>
-                        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-boton">Go somewhere</a>
-                    </div>
+                    <video class="w-100" controls>
+                        <source src="videos/video1.mp4" type="video/mp4">
+                    </video>     
                 </div>
             </div>
 
             <div class="col-12 col-md-6 col-lg-4 mb-4">
                 <div class="card">
-                    <img src="images/foto2.png" class="card-img-top imagen-azul" alt="Foto 2">
-                    <div class="card-body">
-                        <h5>Card title</h5>
-                        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-boton">Go somewhere</a>
-                    </div>
+                    <video class="w-100" controls>
+                        <source src="videos/video2.webm" type="video/webm">
+                    </video>     
                 </div>
             </div>
 
             <div class="col-12 col-md-6 col-lg-4 mb-4">
                 <div class="card">
-                    <img src="images/foto3.jpg" class="card-img-top imagen-azul" alt="Foto 3">
-                    <div class="card-body">
-                        <h5>Card title</h5>
-                        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-boton">Go somewhere</a>
-                    </div>
+                    <video class="w-100" controls>
+                        <source src="videos/video3.ogg" type="video/ogg">
+                    </video>     
                 </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6 mb-4">
+                <audio class="w-100" controls>
+                    <source src="audios/audio1.mp3" type='audio/mpeg; codecs="mp3"'>
+                </audio>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 mb-4">
+                <audio class="w-100" controls>
+                    <source src="audios/audio2.ogg" type='audio/ogg; codecs="vorbis"'>
+                </audio>
             </div>
         </div>
     </main>
@@ -133,5 +141,6 @@
             <span>Privacidad y Cookies</span>
         </div>
     </footer>
+
 </body>
 </html>
